@@ -1,0 +1,380 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.fstsheet{
+    height: 85px;
+    width: 1263px;
+    display: flex;
+}
+.navbar{
+  height: 80px;
+  width: 410px;  
+  display: flex;
+  padding-top: 30px;
+  margin-left: 60px;
+  justify-content: space-evenly;
+}
+.fstsheet img{
+    height: 18px;
+    width: 112px;
+    font-size: 16px;
+}
+.navbar a{
+    height:80px ;
+    width:56px ;
+    font-size:14px ;
+    text-decoration: none;
+    color: black;
+}
+.scndsheet{
+    height: 90px; ;
+    width: 1263px;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+}
+.scndsheet img{
+    height: 64px;
+    width:170px ;
+    font-size: 16px;
+    margin-top: 20px;
+}
+.thrdsheet{
+    height: 700px;
+    width: 1263px;
+    background-color: lightgrey;
+    display:flex;
+    justify-content: center;
+
+}
+.thrdsheet img{
+    height: 604px;
+    width: 1120px;
+    font-size: 16px;
+    border-radius: 17px;
+    margin-top: 30px;
+}
+.frthsheet{
+    height: 70px;
+    width: 1263px;
+    background-color:lightgrey;
+    display: flex;
+    justify-content: center;
+}
+.frthsheet h2{
+    height: 45px;
+    width: 150px;
+    font-size: 36px;
+    margin-left: 25px;
+    margin-top: 30px;
+}
+.fifthsheet{
+    height: 670px;
+    width: 1263px;
+    background-color:lightgrey;
+    display: flex;
+    justify-content: center;
+}
+.smplesheet{
+    height: 550px;
+    width: 1050px;
+    margin-top: 120px;
+    display: flex;
+}
+.smplesheet img{
+    height: 550px;
+    width: 550px;
+    border-radius: 10px;
+
+}
+.text h3{
+    height:65px ;
+    width:425px ;
+    font-size:24px ;
+}
+.text button{
+    font-size: 14px;
+    width: 270px;
+    height: 40px;
+    border-radius: 20px;
+    border: 2px;
+    color: black;
+    margin-top: 13px;
+}
+.text{
+    margin-top: 230px;
+    margin-left: 120px;
+}
+
+.sixthsheet{
+    height: 670px;
+    width: 1263px;
+    background-color:lightgrey;
+    display: flex;
+    justify-content: center;
+}
+.smplesheet1{
+    height: 550px;
+    width: 1050px;
+    margin-top: 120px;
+    display: flex;
+    margin-right: 100px;
+}
+.smplesheet1 img{
+    height: 550px;
+    width: 550px;
+    border-radius: 10px;
+    margin-left: 70px;
+}
+.text1 h3{
+    height:33px ;
+    width:425px ;
+    font-size:24px ;
+    margin-top: 15px;
+}
+.text1 p{
+    height: 130px;
+    width: 360px;
+    font-size: 18px;
+    margin-top: 15px;
+}
+.text1 button{
+    font-size: 14px;
+    width: 270px;
+    height: 40px;
+    border-radius: 20px;
+    border: 2px;
+    color: black; 
+}
+.text1{
+    margin-top: 150px;
+    margin-left: 100px;
+}
+
+.svnthsheet{
+    height: 600px;
+    width: 1263px;
+    background-color:lightgrey;
+    display: flex;
+    justify-content: center;
+}
+.smplesheet2{
+    height: 433px;
+    width: 1050px;
+    margin-top: 120px;
+    display: flex;
+}
+.smplesheet2 img{
+    height: 433px;
+    width: 550px;
+    border-radius: 10px;
+
+}
+.text2 h3{
+    height:65px ;
+    width:425px ;
+    font-size:24px ;
+}
+.text2{
+    margin-top: 200px;
+    margin-left: 120px;
+}
+
+.eghtsheet{
+    height: 270px;
+    width: 1263px;
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+}
+.smplesheet3{
+    height: 270px;
+    width: 1050px;
+    display: flex;
+}
+.smplesheet3 img{
+    height: 270px;
+    width: 262.5px;
+}
+/* -------------------------------------------- */
+.ninthsheet{
+    height: 400px;
+    width: 1263px;
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+}
+.smplesheet4{
+    height: 125px;
+    width: 1050px;
+    font-size: 14px;
+    background-color: black;
+    border-radius: 10px;
+    margin-top:150px ;
+}
+.fstpart h2{
+    font-size: 32px;
+    width: 300px;
+    height: 40px;
+    color: white;
+    margin-top: 40px;
+    margin-left: 90px;
+}
+.scndprt {
+    display: flex;
+    margin-left: 715px;
+    margin-top: -35px;
+    gap: 30px;
+    /* justify-content: space-evenly; */
+}
+.scndprt svg{
+    height: 40px;
+    width: 40px;
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 10px;
+    
+}
+
+/* -------------------------------------------- */
+.fstftr{
+    height: 140px;
+    width: 1263px;
+    background-color:black;
+}
+.fstftr img{
+    height:40px ;
+    width: 250px;
+    margin-left: 115px;
+    margin-top:50px ;
+}
+.scndftr{
+    height: 450px;
+    width: 1263px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+ 
+}
+.smplesheet5{
+    height: 450px;
+    width: 1050px;
+    /* background-color: aqua; */
+    display: flex;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+.cndntftr{
+    height: 420px;
+    width: 730px;
+    background-color: black;
+    display: flex;
+    padding-top: 20px;
+}
+.cndntftr1{
+    height: 420px;
+    width: 320px;
+    /* background-color: yellow; */
+    display: flex;
+    gap: 13px;
+    justify-content: end;
+    padding-top: 20px;
+}
+.fst{
+    height: 420px;
+    width: 182.5px;
+}
+.scnd{
+    height: 420px;
+    width: 182.5px; 
+}
+.thrd{
+    height: 420px;
+    width: 182.5px; 
+}
+.frth{
+    height: 420px;
+    width: 182.5px; 
+}
+.fst h5{
+    height: 18px;
+    width: 161px;
+    margin-top: 10px; 
+    color: white;
+}
+.scnd h5{
+    height: 36px;
+    width: 161px;
+    margin-top: 10px; 
+    color: white;
+}
+.thrd h5{
+    height:30px;
+    width: 161px;
+    margin-top: 10px; 
+    color: white; 
+}
+.frth h5{
+    height: 17px;
+    width: 161px;
+    margin-top: 10px;
+    color: white;     
+}
+.fst h4{
+    height: 17px;
+    width: 161px;
+    color:lightgrey; 
+     font-size: 14px;
+}
+.scnd h4{
+    height: 17px;
+    width: 161px;
+    color:lightgrey; 
+    font-size: 14px; 
+}
+.thrd h4{
+    height: 17px;
+    width: 161px;
+    color:lightgrey; 
+    font-size: 14px; 
+}
+.frth h4{
+    height: 17px;
+    width: 161px;
+    color:lightgrey;  
+    font-size: 14px;
+}
+
+.cndntftr1 svg{
+    height:35px;
+    width: 37px;
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 8px;
+    
+
+}
+.finalftr{
+    height: 140px;
+    width: 1263px;
+    background-color: black;
+}
+.finalftr p{
+    color: white;
+    margin-left: 895px;
+    height: 17px;
+    width: 333px;
+    font-size: 12px;
+    padding-top: 50px;
+}
+.ii{
+    width:100px ;
+    
+}
+.hr{
+    width: 0;
+    margin-left: 250px;
+    /* margin-bottom: 50px; */
+}
